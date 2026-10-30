@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37502.11 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BankSystem - UI - CurrencyExchange", "BankSystem - UI - CurrencyExchange\BankSystem - UI - CurrencyExchange.vcxproj", "{79DF3CE5-924A-4EB8-BE0D-8814A5F75D06}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79DF3CE5-924A-4EB8-BE0D-8814A5F75D06}.Debug|x64.ActiveCfg = Debug|x64
+		{79DF3CE5-924A-4EB8-BE0D-8814A5F75D06}.Debug|x64.Build.0 = Debug|x64
+		{79DF3CE5-924A-4EB8-BE0D-8814A5F75D06}.Debug|x86.ActiveCfg = Debug|Win32
+		{79DF3CE5-924A-4EB8-BE0D-8814A5F75D06}.Debug|x86.Build.0 = Debug|Win32
+		{79DF3CE5-924A-4EB8-BE0D-8814A5F75D06}.Release|x64.ActiveCfg = Release|x64
+		{79DF3CE5-924A-4EB8-BE0D-8814A5F75D06}.Release|x64.Build.0 = Release|x64
+		{79DF3CE5-924A-4EB8-BE0D-8814A5F75D06}.Release|x86.ActiveCfg = Release|Win32
+		{79DF3CE5-924A-4EB8-BE0D-8814A5F75D06}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0D1BB900-B9F5-4D4A-90C6-AB4E7632D1EE}
+	EndGlobalSection
+EndGlobal

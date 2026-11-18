@@ -57,16 +57,31 @@ msbuild '.\BankSystem - UI - CurrencyExchange.sln' /p:Configuration=Debug /p:Pla
 
 ## Project structure
 
-| Files | Purpose |
-| --- | --- |
-| `BankSystem - UI - CurrencyExchange.cpp` | Entry point and login loop |
-| `clsPerson.h`, `clsBankClient.h`, `clsUser.h`, `clsCurrency.h` | Domain models and file persistence |
-| `cls*Screen.h` | Console menus and workflows |
-| `clsString.h`, `clsDate.h`, `clsInputValidate.h`, `clsUtility.h` | Shared utility classes |
-| `Currencies.txt` | Stored currency data and example exchange rates |
-| `examples/` | Fictional initial client and user records |
+The project uses real directories matching the groups shown in Visual Studio:
 
-The source files and `Currencies.txt` are inside the `BankSystem - UI - CurrencyExchange` project directory.
+```text
+BankSystem - UI - CurrencyExchange/
+├── Header Files/
+│   ├── BasicBlocks/
+│   ├── CurrencyExchangeOptions/
+│   ├── MainMenuOptions/
+│   ├── ManageUsersOptions/
+│   ├── PrimaryMenus/
+│   ├── Randoms/
+│   ├── TransactionsMenuOptions/
+│   └── Global.h
+├── Source Files/
+│   └── BankSystem - UI - CurrencyExchange.cpp
+├── Resource Files/
+│   └── .gitkeep
+├── BankSystem - UI - CurrencyExchange.vcxproj
+├── BankSystem - UI - CurrencyExchange.vcxproj.filters
+└── Currencies.txt
+```
+
+`BasicBlocks` contains domain models and file persistence, the menu folders contain console screens and workflows, and `Randoms` contains shared utilities. `Resource Files` is reserved for future resources; `.gitkeep` makes the currently empty folder visible on GitHub.
+
+Runtime data stays in the project directory, alongside `Currencies.txt`. The repository's `examples/` directory contains fictional initial client and user records.
 
 ## Project scope
 

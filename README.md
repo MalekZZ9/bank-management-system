@@ -72,14 +72,12 @@ BankSystem - UI - CurrencyExchange/
 │   └── Global.h
 ├── Source Files/
 │   └── BankSystem - UI - CurrencyExchange.cpp
-├── Resource Files/
-│   └── .gitkeep
 ├── BankSystem - UI - CurrencyExchange.vcxproj
 ├── BankSystem - UI - CurrencyExchange.vcxproj.filters
 └── Currencies.txt
 ```
 
-`BasicBlocks` contains domain models and file persistence, the menu folders contain console screens and workflows, and `Randoms` contains shared utilities. `Resource Files` is reserved for future resources; `.gitkeep` makes the currently empty folder visible on GitHub.
+`BasicBlocks` contains domain models and file persistence, the menu folders contain console screens and workflows, and `Randoms` contains shared utilities.
 
 Runtime data stays in the project directory, alongside `Currencies.txt`. The repository's `examples/` directory contains fictional initial client and user records.
 
